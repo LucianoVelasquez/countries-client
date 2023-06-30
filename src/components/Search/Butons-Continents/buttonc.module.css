@@ -1,0 +1,14 @@
+.buttons{
+    margin: 15px 5px 0 5px;
+  }
+.buttonAtive{
+    margin: 15px 5px 0 5px;
+    color: #FFFFFF !important;
+    background: #548e96;
+    transition:  background 0.5s ease-in-out, border 0.5s ease-in-out;
+}
+.buttonAtive:focus{
+  background: #194e54;
+  border: 1px solid #548e96;
+}
+

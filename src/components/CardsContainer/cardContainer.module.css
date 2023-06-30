@@ -1,0 +1,12 @@
+.divMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.divSec{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

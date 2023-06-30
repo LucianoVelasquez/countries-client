@@ -1,0 +1,66 @@
+.divMain{
+    display: flex;
+    margin-top: 8px;
+    border-radius: 5px;
+    padding: 20px;
+    background: #00000008;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 24px 24px 24px 24px;
+    box-shadow: 1px 1px 10px 0px rgb(0 0 0 / 14%);
+}
+
+.divSec{
+    margin: 20px 0 3px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.divActi{
+    display: flex;
+    margin: 15px 0px 0px 0px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.searchMain{
+    display: flex;
+    margin: 15px 0 0 0;
+}
+.searchButt{
+    margin: 0 15px 0 0 ;
+}
+.option{
+    margin-right: 8px;
+}
+.p1{
+    font-size: 14px;
+    margin: 0 5px 0 25px;
+}
+.p2{
+    font-size: 14px;
+    margin: 0px 5px 0 5px;
+}
+.p3{
+    font-size: 14px;
+    margin: 0px 5px;
+}
+.buttActi{
+    font-size: 11px;
+    margin: 0px 5px 0 5px;
+}
+.input{
+    background: none;
+    border-radius: 10px;
+    margin-right: 5px;
+    border: 1px solid #548e96;
+    box-shadow: 1px 0px 8px 0px rgb(29 29 29 / 25%);
+    color: #1d1d1d;
+    padding: 0px 0px 0px 10px;
+}
+

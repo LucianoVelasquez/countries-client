@@ -1,0 +1,48 @@
+.card {
+    border-radius: 15px;
+    height: 650px;
+    transition: all 0.2s;
+    position: relative;
+    margin: 25px 25px 25px 25px;
+    text-decoration: none;
+}
+.cardInner {
+    width: inherit;
+    height: 600px;
+    background: rgba(134, 129, 129, 0.05);
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 3px;
+    color: #1d1d1d;
+  }
+  .cardImg {
+    border-radius: 10px;
+    max-width: 320px;
+    max-height: 240px;
+    box-shadow: 0 0 3px rgb(0 0 0 / 46%);
+  }
+  .seccion{
+    display: flex;
+    flex-direction: column;
+    margin: 35px 0px 0px 0px;
+  }
+  .span {
+    font-weight: 400;
+    font-size: 18px;
+    margin: 3px;
+    color: #1d1d1d;
+    letter-spacing: 0.8px
+  }
+  .link{
+    margin: 2vh 150vh 0px 0px;
+  }
+  .button{
+    width: 150px;
+  }
+  h1{
+    color: #1d1d1d !important;
+  }

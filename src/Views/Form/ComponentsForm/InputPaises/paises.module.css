@@ -1,0 +1,17 @@
+.lavels {
+  margin-top: 10px;
+}
+.option {
+  margin-top: 3px;
+  background: #ffffff;
+  max-width: 160px;
+  box-shadow: 1px 0px 8px 0px rgb(29 29 29 / 25%);
+  border: 1px solid #63aeb8;
+  color: #525050;
+  border-radius: 5px;
+}
+.spanError {
+  color: rgb(240, 95, 95);
+  font-size: 12px;
+  font-weight: 400;
+}

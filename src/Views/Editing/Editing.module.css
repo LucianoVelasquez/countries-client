@@ -1,0 +1,26 @@
+.divMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    width: 100vw; /* Ancho del viewport */
+    height: 80vh;
+}
+.divSec{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.h2 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #1d1d1d;
+}
+.divSec h1{
+   height: 100%;
+   color: #477c84 !important
+}
