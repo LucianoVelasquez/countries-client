@@ -1,4 +1,4 @@
-import style from './editing.module.css'
+import style from './mo.module.css';
 import { useSelector } from "react-redux";
 import CardActivity from './CardActivity/CardActivity';
 import { useDispatch } from 'react-redux';
