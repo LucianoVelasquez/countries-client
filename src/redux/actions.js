@@ -1,11 +1,11 @@
 import axios from "axios";
 import {GET_COUNTRIES,GET_COUNTRIE,GET_ACTIVITIES,FILTER_COUNTRIES,ORDER_COUNTRIES, DELETE_ACTIVITIE, FILTER_ACTIVITIES,PRE_UPDATE_ACTIVITIE,CLEAR,UPDATE_ACTIVITIE,GET_COUNTRY_BY_ID } from './Constants/index'
-
+const url = 'https://countries-server-gnxp.onrender.com';
 
 export const getCountries = () => {
   return async function (dispatch) {
     try{
-      const data = await axios.get("http://localhost:3001/countries");
+      const data = await axios.get(`${url}/countries`);
     const countries = data.data;
     dispatch({ type: GET_COUNTRIES, payload: countries });
     }catch(error){
@@ -18,7 +18,7 @@ export const getCountries = () => {
 export const getCountrie = (name) => {
   return async function (dispatch) {
     try {
-      const data = await axios.get(`http://localhost:3001/countries?name=${name}`);
+      const data = await axios.get(`${url}/countries?name=${name}`);
       const pais = data.data;
       dispatch({ type: GET_COUNTRIE, payload: pais });
     } catch (error) {
@@ -30,7 +30,7 @@ export const getCountrie = (name) => {
 export const getCountrieById = (id) =>{
   return async function (dispatch) {
     try {
-      const data = await axios.get(`http://localhost:3001/countries/${id}`);
+      const data = await axios.get(`${url}/countries/${id}`);
       const pais = data.data;
       dispatch({ type: GET_COUNTRY_BY_ID, payload: pais });
     } catch (error) {
@@ -42,7 +42,7 @@ export const getCountrieById = (id) =>{
 export const getActivities = () =>{
   return async function(dispatch){
     try {
-      const data = await axios.get(`http://localhost:3001/activities`);
+      const data = await axios.get(`${url}/activities`);
       const activities = data.data;
       dispatch({type: GET_ACTIVITIES, payload: activities});
     } catch (error) {

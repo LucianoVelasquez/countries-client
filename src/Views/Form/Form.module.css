@@ -1,7 +1,7 @@
 .divPri {
     border-radius: 15px;
     /* height: 650px; */
-    height: auto;
+    height: 100vh;
     transition: all 0.2s;
     position: relative;
     margin: 25px 25px -50px 25px;

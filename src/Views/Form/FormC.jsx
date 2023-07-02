@@ -12,7 +12,7 @@ import { clearAfterUpdate,updateActivity } from "../../redux/actions";
 
 export default function FormC() {
   const dispatch = useDispatch();
-
+  const url = 'https://countries-server-gnxp.onrender.com';
   const navigation = useNavigate();
 
   let { allPaises,actiEditing } = useSelector((state)=>state);
@@ -137,7 +137,7 @@ export default function FormC() {
       const typeAction = e.target[5].value; //Id del botton
 
       if(typeAction === 'create'){
-        const endpoint = 'http://localhost:3001/activities';
+        const endpoint = `${url}/activities`;
         const newActiviti = {
         name: data.name,
         dificultad: data.dificultad,
