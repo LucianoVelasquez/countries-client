@@ -20,6 +20,9 @@
     font-size: 20px;
     color: #1d1d1d;
 }
+.h1{
+    color: black !important;
+}
 .divSec h1{
    height: 100%;
    color: #477c84 !important
