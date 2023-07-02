@@ -1,7 +1,14 @@
 import { Link } from "react-router-dom";
 import style from "./landing.module.css";
+import { useEffect } from "react";
+import { useDispatch } from "react-redux";
+import { removeActivity } from "../../redux/actions";
 
 export default function Landing() {
+  const dispatch = useDispatch();
+  useEffect(()=>{
+    dispatch(removeActivity('deletAll'));
+  })
   return (
     <div className="bg-propy min-h-screen min-h-screen ">
       <div className={`${style.back}`}>

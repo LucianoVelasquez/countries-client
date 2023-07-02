@@ -30,7 +30,7 @@ export default function Home() {
     dispatch(getActivities());
     setTimeout(()=>{
       dispatch(filterActivities());
-    },200)
+    },900)
   }, []);
 
   const hanldeClickOrder = (e) => {

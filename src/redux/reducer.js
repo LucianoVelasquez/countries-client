@@ -71,7 +71,7 @@ export default function reducer(state = initialState, action) {
     }
     case DELETE_ACTIVITIE:
       axios.delete(`http://localhost:3001/activities/${action.payload}`)
-      .then(alert('Eliminado correctamente.'))
+      .then(action.payload !== 'deletAll'? alert('Eliminado correctamente.') : '' )
       .catch(error=> alert(error.message))
     
     return{

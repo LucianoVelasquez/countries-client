@@ -10,7 +10,8 @@ export default function CardsContainer({currentCountries}) {
     <div className={style.divMain}>
 
       <div className={style.divSec}>
-        {currentCountries?.map((pais) => {
+        {currentCountries.length < 1? <h1>Cargando contenido..</h1> :
+        currentCountries.map((pais) => {
           return (
             <Card
               bandera={pais.flags}
