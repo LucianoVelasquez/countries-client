@@ -8,11 +8,5 @@
         "src": "/(.*)",
         "dest": "/index.html"
       }
-    ],
-    "rewrites": [
-      {
-        "source": "/(.*)",
-        "destination": "/index.html"
-      }
     ]
   }
